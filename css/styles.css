@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #bd5d38;
+  --primary: #122f72;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -54,6 +54,8 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
@@ -66,7 +68,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -159,12 +161,12 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #043a77;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: #0e1e79;
   text-decoration: underline;
 }
 
@@ -6137,7 +6139,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #043a77 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9839,7 +9841,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #043a77!important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
